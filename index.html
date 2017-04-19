@@ -23,7 +23,7 @@
         <p style="font-size: smaller;"><a href="mailto:april@mozilla.com">april@mozilla.com</a> &mdash; <a href="https://github.com/april/">github.com/april</a> &mdash; <a href="https://twitter.com/aprilmpls">@aprilmpls</a></p>
       </section>
 
-      <section data-transition="none-out" data-autoslide="5000">
+      <section data-transition="none-out" data-autoslide="2000">
         <h3>
           <span style="visibility: hidden;"><strong>18</strong> Acronyms That Keep You Safe</span><br>20 Acronyms That Keep You Safe<br><span style="visibility: hidden;">(on the web)</span></s>
         </h3>
@@ -33,7 +33,7 @@
         </ul>
       </section>
 
-      <section data-transition="none-out" data-autoslide="5000">
+      <section data-transition="none-out" data-autoslide="7000">
         <h3>
           <span style="visibility: hidden;"><strong>18</strong> Acronyms That Keep You Safe</span><br>20 Acronyms That Keep You Safe<br>(on the web)</s>
         </h3>
@@ -43,7 +43,7 @@
         </ul>
       </section>
 
-      <section data-transition="none-in" data-autoslide="5000">
+      <section data-transition="none-in" data-autoslide="6000">
         <h3>
           <strong>18</strong><span style="visibility: hidden;"> Acronyms That Keep You Safe</span><br><s>20</s> Acronyms That Keep You Safe<br>(on the web)</s>
         </h3>
@@ -71,20 +71,20 @@
         <div style="height: 400px;"><img class="plain" style="height: 380px; margin-top: 30px;" src="images/third-party/rsa.jpg"></div>
       </section>
 
-      <!-- grouped slide -->
-      <section data-autoslide="5000" data-transition="none-out">
+      <!-- grouped slide, add up to 13800 -->
+      <section data-autoslide="4600" data-transition="none-out">
         <h3 class="left acronym"><strong>CA</strong></h3>
         <h6 class="left">Certificate Authority</h6>
         <div style="height: 400px;"><img class="plain" style="height: 380px" src="images/third-party/drivers-license-mason-city.jpg"></div>
       </section>
 
-      <section data-autoslide="5000" data-transition="none-out none-in">
+      <section data-autoslide="4600" data-transition="none-out none-in">
         <h3 class="left acronym"><strong>CA</strong></h3>
         <h6 class="left">Certificate Authority</h6>
         <div style="height: 400px;"><video src="video/too-much-money-no-audio.mp4" style="height: 380px;" data-autoplay></video></div>
       </section>
 
-      <section data-autoslide="5000" data-transition="none-in">
+      <section data-autoslide="4600" data-transition="none-in">
         <h3 class="left acronym"><strong>CA</strong></h3>
         <h6 class="left">Certificate Authority</h6>
         <div style="height: 400px;"><img class="plain" style="margin-top: 30px; width: 100%" src="images/third-party/letsencrypt-logo-horizontal.svg"></div>
@@ -150,15 +150,26 @@
         <div style="height: 400px;"><img class="plain" style="border: solid 3px black; height: 380px; margin-top: 30px;" src="images/third-party/pin-it.jpg"></div>
       </section>
 
-      <!-- fix timing -->
-      <section data-autoslide="3000">
+      <!-- fix timing, add up to 14600 -->
+      <section data-autoslide="11600" data-transition="none-out">
         <h3 class="left acronym"><strong>SOP</strong></h3>
         <h6 class="left">Same Origin Policy</h6>
         <div style="height: 300px; margin: 1em;"><img class="plain" src="images/third-party/bedrock.jpg"></div>
-        <p class="fragment" style="margin-top: 1em;" data-fragment-index="1" data-autoslide="1000">
-          <span class="fragment highlight-current-red" data-fragment-index="2" style="border: solid 1px black; margin-right: .3em; padding: .25em;" data-autoslide="1000">https://</span>
-          <span class="fragment highlight-current-red" data-fragment-index="3" style="border: solid 1px black; margin-right: .3em; padding: .25em;" data-autoslide="1000">www.mozilla.org</span>
-          <span class="fragment highlight-current-red" data-fragment-index="4" style="border: solid 1px black; margin-right: .3em; padding: .25em;" data-autoslide="10000">:443</span>
+        <p style="margin-top: 1em; visibility: hidden;">
+          <span style="border: solid 1px black; margin-right: .3em; padding: .25em;">https://</span>
+          <span style="border: solid 1px black; margin-right: .3em; padding: .25em;">www.mozilla.org</span>
+          <span style="border: solid 1px black; margin-right: .3em; padding: .25em;">:443</span>
+        </p>
+      </section>
+
+      <section data-autoslide="0" data-transition="none-in">
+        <h3 class="left acronym"><strong>SOP</strong></h3>
+        <h6 class="left">Same Origin Policy</h6>
+        <div style="height: 300px; margin: 1em;"><img class="plain" src="images/third-party/bedrock.jpg"></div>
+        <p style="margin-top: 1em;">
+          <span class="fragment highlight-current-red" data-fragment-index="0" style="border: solid 1px black; margin-right: .3em; padding: .25em;" data-autoslide="1000">https://</span>
+          <span class="fragment highlight-current-red" data-fragment-index="1" style="border: solid 1px black; margin-right: .3em; padding: .25em;" data-autoslide="1000">www.mozilla.org</span>
+          <span class="fragment highlight-current-red" data-fragment-index="2" style="border: solid 1px black; margin-right: .3em; padding: .25em;" data-autoslide="1000">:443</span>
         </p>
       </section>
 
@@ -191,6 +202,9 @@
           <a href="https://april.github.io/pubconf-presentation">april.github.io/pubconf-presentation</a>
         </div>
       </section>
+
+      <!-- blank so I can see the timer -->
+      <section></section>
     </div>
   </div>
 
@@ -198,7 +212,7 @@
   <script>
     // Let's startup reveal.js!
     Reveal.initialize({
-      autoSlide: 15000,
+      autoSlide: 14885, // account for slide transition time
       // autoSlideStoppable: false,
       controls: false,
       height: 700,
