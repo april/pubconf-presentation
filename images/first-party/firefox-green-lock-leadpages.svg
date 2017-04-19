@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2000 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="shape-lock-clasp-outer" transform="matrix(52.5926,0,0,52.5926,-80.3183,-32.1484)">
+        <path d="M12,5.019C12,3.353 10.647,2 8.981,2L7.019,2C5.353,2 4,3.353 4,5.019L4,8.981C4,10.647 5.353,12 7.019,12L8.981,12C10.647,12 12,10.647 12,8.981L12,5.019Z" style="fill:none;stroke:rgb(77,154,38);stroke-width:1.81px;"/>
+    </g>
+    <g id="shape-lock-base" transform="matrix(64,0,0,64,-171.577,-112)">
+        <path d="M13,7.921C13,7.413 12.587,7 12.079,7L3.921,7C3.413,7 3,7.413 3,7.921L3,13.079C3,13.587 3.413,14 3.921,14L12.079,14C12.587,14 13,13.587 13,13.079L13,7.921Z" style="fill:rgb(77,154,38);"/>
+    </g>
+    <g transform="matrix(1.47047,0,0,0.862347,-358.946,89.8304)">
+        <rect x="739.751" y="459.641" width="846.481" height="171.16" style="fill:white;stroke:rgb(128,128,128);stroke-width:3.32px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+    </g>
+    <g transform="matrix(5.44481,0,0,5.65093,-3388.75,-2446.19)">
+        <g transform="matrix(1,0,0,1,760.964,536.35)">
+            <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">https://www</text>
+        </g>
+        <g transform="matrix(1,0,0,1,822.318,536.35)">
+            <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">.leadpages.net/</text>
+        </g>
+    </g>
+</svg>
