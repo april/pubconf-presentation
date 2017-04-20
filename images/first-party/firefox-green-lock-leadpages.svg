@@ -10,12 +10,9 @@
     <g transform="matrix(1.47047,0,0,0.862347,-358.946,89.8304)">
         <rect x="739.751" y="459.641" width="846.481" height="171.16" style="fill:white;stroke:rgb(128,128,128);stroke-width:3.32px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
     </g>
-    <g transform="matrix(5.44481,0,0,5.65093,-3388.75,-2446.19)">
-        <g transform="matrix(1,0,0,1,760.964,536.35)">
-            <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">https://www</text>
-        </g>
-        <g transform="matrix(1,0,0,1,822.318,536.35)">
-            <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">.leadpages.net/</text>
+    <g transform="matrix(5.44481,0,0,5.65093,754.558,584.686)">
+        <g>
+            <text x="0px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">https://leadpages.net/</text>
         </g>
     </g>
 </svg>
